@@ -1,0 +1,179 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-size: 14px;
+}
+
+header {
+    background-image: url(../img/back-1.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+nav {
+    background-color: rgba(22.0, 25.5, 29.0, 0.4);
+}
+
+span.orange-color {
+    color: #eda22f;
+}
+
+/*properties section*/
+
+section.properties-section {
+    padding-top: 2.875rem;
+}
+
+section.properties-section p {
+    font-size: 13px;
+}
+
+section.properties-section a {
+    font-size: 14px;
+}
+
+@media (max-width:576px) {
+    li.nav-item {
+        font-size: 11px;
+    }
+}
+
+/*with reality section*/
+
+section.withReality-section {
+    padding-top: 5.225rem;
+    padding-bottom: 3.375rem;
+}
+
+section.withReality-section h4 {
+    text-align: center;
+}
+
+section.withReality-section p {
+    text-align: center;
+}
+
+/*reality section*/
+
+section.reality-section img {
+    margin-left: 40%;
+    padding-bottom: 1.75rem;
+}
+
+@media (max-width:576px) {
+    section.reality-section img {
+        margin-left: 40%;
+        padding-bottom: 1.75rem;
+    }
+}
+
+section.reality-section h6 {
+    text-align: center;
+}
+
+section.reality-section p {
+    text-align: center;
+}
+
+/*forSale section*/
+
+section.forSale-section {
+    padding-top: 6.1875rem;
+}
+
+/*forApp section*/
+
+.forApp-section {
+    padding: 2.875rem 0 4.8125rem;
+    position: relative;
+}
+
+.for-app {
+    filter: blur(3px);
+}
+
+.hand-img {
+    position: absolute;
+    top: 25%;
+}
+/*agents section*/
+
+section.agents-section {
+    text-align: center;
+    padding-bottom: 5.75rem;
+}
+
+section.agentPhoto-section h6 {
+    text-align: center;
+}
+
+/*top footer section*/
+
+footer.top-footer {
+    background-color: #303133;
+    padding-top: 2.25rem;
+}
+
+div.upper-sec {
+    padding-bottom: 4.675rem;
+    color: white;
+}
+
+div.lower-sec {
+    color: white;
+}
+
+div.lower-sec h6 {
+    padding-bottom: 2.8125rem;
+}
+
+div.lower-sec p.about {
+    font-size: 12px;
+}
+
+div.lower-sec p.contact {
+    font-size: 15px;
+}
+
+div.lower-sec p.address {
+    font-size: 14px;
+}
+
+div.lower-sec p.phone {
+    font-size: 14px;
+}
+
+div.lower-sec p.links {
+    font-size: 14px;
+}
+
+/*bottom footer section*/
+
+footer.bottom-footer {
+    padding: 2.75rem 0 1.6875rem;
+}
+
+footer.bottom-footer p {
+    text-align: center;
+}
+
+@media (max-width:576px) {
+    footer.bottom-footer {
+        padding: 1.75rem 0 0.6875rem;
+    }
+    footer.bottom-footer p {
+        text-align: center;
+        font-size: 11px;
+    }
+}
